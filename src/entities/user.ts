@@ -9,7 +9,7 @@ import {
     PrimaryGeneratedColumn,
   } from 'typeorm';
 
-  import { Profile }  from './profile'
+  
  
   @Unique(['email'])
   @Entity({ name: 'users' })
