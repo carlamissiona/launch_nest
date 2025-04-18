@@ -9,16 +9,8 @@ import {
     PrimaryGeneratedColumn,
   } from 'typeorm';
 
-  @Entity()
-export class Profile {
-  @PrimaryGeneratedColumn()
-  id: number;
-
-  @Column()
-  bio: string;
-}
-  
-
+  import { Profile }  from './profile'
+ 
   @Unique(['email'])
   @Entity({ name: 'users' })
   export class User {

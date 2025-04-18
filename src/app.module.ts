@@ -21,7 +21,6 @@ import { User } from './entities/user';
       database: 'portfolio_r1jw',
       entities: [User],
       synchronize: true,
-      ssl: false, 
     }),
     UsersModule,
   ],
