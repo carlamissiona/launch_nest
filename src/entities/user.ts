@@ -8,6 +8,7 @@ import {
     Unique,
     PrimaryGeneratedColumn,
   } from 'typeorm';
+import { Profile } from './profile';
 
   
  
